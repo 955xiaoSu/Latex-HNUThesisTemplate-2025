@@ -1,0 +1,13 @@
+\chapter{关键代码}\label{Code}
+\vspace{0.5cm}
+
+\begin{lstlisting}
+#define DBGKEY                                       0xA05F
+#define C_DEBUGEN                                  (1 << 0)
+#define C_HALT                                     (1 << 1)
+#define C_STEP                                     (1 << 2)
+#define C_MASKINTS                                 (1 << 3)
+#define S_HALT                                    (1 << 17)
+#define M4_DHCSR_ADDR        (volatile uint32_t*)0xE000EDF0
+#define M4_CPUID_base_register        (uint32_t*)0xE000ED00
+\end{lstlisting}
